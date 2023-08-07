@@ -1,0 +1,9 @@
+.fab {
+  font-size: 32px;
+}
+
+.position {
+  position: absolute; /* headerの左上を基準に絶対位置で指定する */
+  top: 100px; /* headerの左上から22px下側へ移動する */
+  right: 40px; /* headerの右上から22px左側へ移動する */
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 400px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom; /* 背景画像を中央に配置 */
+}
+
+.main-visual-content {
+  padding: 20px; /* 上側の内側余白で垂直方向の位置を調整 */
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.blog-item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #6c6b6b;
+}

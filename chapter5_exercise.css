@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 100%; /* 横幅840px */
+  margin: 50px auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.green {
+  width: 800px; /* 横幅840px */
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.g1 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #e6ffe9;
+}
+
+.g2 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #cbffd3;
+}
+
+.g3 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #aeffbd;
+}
+
+.g4 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #93ffab;
+}
+
+.yellow {
+  width: 800px; /* 横幅840px */
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.y1 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #f3ffd8;
+}
+
+.y2 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #edffbe;
+}
+
+.y3 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #e9ffa5;
+}
+
+.y4 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #e4ff8d;
+}
+
+.blue {
+  width: 800px; /* 横幅840px */
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.b1 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #d9e5ff;
+}
+
+.b2 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #bad3ff;
+}
+
+.b3 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #a4c6ff;
+}
+
+.b4 {
+  width: 200px; /* 横幅600px */
+  height: 200px; /* 高さ600px */
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}

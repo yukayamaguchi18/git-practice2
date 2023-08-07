@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FF9A4B;
+  padding-bottom: 50px;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex
+}
+
+.back {
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.back:last-child {
+  margin-right: 0;
+}
+
+.image1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.image2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.image3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+span {
+  background-color: #FF9A4B;
+  color: #EEEEEE;
+}
+
+h3 {
+  margin: 15px 5px 0 0;
+}
+
+footer {
+  background-color: #AAAAAA;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .back {
+    width: 90%;
+    margin: 0 20px 5% 5%;
+  }
+
+  .back:last-child {
+    margin-bottom: 0;
+  }
+
+  .image1 {
+    width: 100%;
+  }
+
+  .image2 {
+    width: 100%;
+  }
+
+  .image3 {
+    width: 100%;
+  }
+
+}
